@@ -34,7 +34,7 @@ public class StringConcantenation{
             k++;
             l++;
         }
-        return new String(str4);
+        return new String(str5);
     }
     
     public static void main(String[] args){
