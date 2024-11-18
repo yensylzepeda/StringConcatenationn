@@ -13,21 +13,21 @@ public class StringConcantenation{
             i++;
         }
         int j = 0;
-        while (j < len1+len2){
+        while (j < len2){
             str5[i] = str2.charAt(j);
             i++;
             j++;
         }
         
         int k = 0;
-        while (k < len1+len2+len3){
+        while (k < len3){
             str5[i] = str3.charAt(k);
             i++;
             j++;
             k++;
         }
         int l = 0;
-        while (l < len1+len2+len3+len4){
+        while (l < len4){
             str5[i] = str4.charAt(l);
             i++;
             j++;
@@ -35,7 +35,7 @@ public class StringConcantenation{
             l++;
         }
         return new String(str5);
-    }
+    } 
     
     public static void main(String[] args){
         String str1 = "Yensyl";
@@ -47,4 +47,5 @@ public class StringConcantenation{
         System.out.println("Concatenated String: " + concatenatedString);
         
 
-    }
+    }       
+     
